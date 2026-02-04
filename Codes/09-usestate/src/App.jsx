@@ -41,7 +41,7 @@ const App = () => {
       <h1>{numb}</h1>
       <button onClick={() => setNumb(numb + 1)}>Increment</button>
       <button onClick={() => setNumb(numb - 1)}>Decrement</button>
-      <button onClick={() => setNumb(numb+5)}>Increment by 5</button>
+      <button onClick={() => setNumb(numb + 5)}>Increment by 5</button>
       <button onClick={() => setNumb(0)}>Reset</button>
     </div>
   )
